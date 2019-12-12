@@ -1,5 +1,5 @@
 const express = require('express');
-const knex = require('knex')(require('./knexfile'))
+const knex = require('knex')(require('../knexfile'))
 const bodyParser = require('body-parser');
 
 const redis = require('./redis')
